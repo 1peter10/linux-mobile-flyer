@@ -19,6 +19,7 @@ Gleiche wie bei Desktop-Linux:
 * Privatsphäre
 * standardmäßig Root-Rechte
 * nicht-kommerziell
+* Bastelspaß!
 
 ## Geräte
 * Pine64 (<https://pine64.org>): PinePhone und PinePhone Pro
@@ -45,6 +46,7 @@ Gleiche wie bei Desktop-Linux:
 * basierend auf Debian
     * PureOS (<https://pureos.net>)
     * Mobian (<https://mobian-project.org>)
+    * Droidian (<https://droidian.org/>)
 * postmarketOS (<https://postmarketos.org>)
 * Maemo Leste (<https://maemo-leste.github.io>)
 * Mobile NixOS (<https://mobile.nixos.org>)
@@ -67,10 +69,10 @@ Gleiche wie bei Desktop-Linux:
     * Waydroid (<https://waydro.id>)
 
 ## Blogs
-* LINMOB.net (<https://linmob.net
-* TuxPhones (<https://tuxphones.com>)
 * fossphones (<https://fossphones.com/news.html>)
+* LINMOB.net (<https://linmob.net>)
 * megi (<https://xnux.eu/log/>)
+* TuxPhones (<https://tuxphones.com>)
 
 <!--## Kurioses
 * Doom auf PinePhone-Modem: 
