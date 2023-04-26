@@ -23,9 +23,12 @@ Gleiche wie bei Desktop-Linux:
 ## Geräte
 * Pine64 (<https://pine64.org>): PinePhone und PinePhone Pro
 * Purism (<https://puri.sm>): Librem 5
-* viele Android-Geräte auch kompatibel
-    * Liste im postmarketOS-Wiki (<https://wiki.postmarketos.org/wiki/Devices>)
-    * <!--TODO-->
+* viele Android-Geräte auch kompatibel, unterstützt von
+    * postmarketOS (<https://wiki.postmarketos.org/wiki/Devices>)
+    * Ubuntu Touch (<https://devices.ubuntu-touch.io>)
+    * Mobian (<https://wiki.mobian.org/doku.php?id=devices>)
+    <!--TODO-->
+* umfangreiche Liste auf TuxPhones.com (<https://many.tuxphones.com>)
 
 ## Oberflächen / Ökosysteme
 * Plasma Mobile (<https://plasma-mobile.org>)
@@ -42,26 +45,35 @@ Gleiche wie bei Desktop-Linux:
 * basierend auf Debian
     * PureOS (<https://pureos.net>)
     * Mobian (<https://mobian-project.org>)
-* Sonstige
-    * postmarketOS (<https://postmarketos.org>)
-    * ...
+* postmarketOS (<https://postmarketos.org>)
+* Maemo Leste (<https://maemo-leste.github.io>)
+* Mobile NixOS (<https://mobile.nixos.org>)
+* Rhino Linux (<https://rhinolinux.org>)
+* Liste mit weiteren auf LINMOB.net (<https://linmob.net/resources/#mobile-linux-distributions>)
+<!-- * AVMultiPhone -->
 
 ## Gesamtsysteme
-* UBPorts
-* SailfishOS
+* Ubuntu Touch (<https://ubports.com>)
+* SailfishOS (<https://sailfishos.org>)
 
 ## Apps
-* LinuxPhoneApps: https://linuxphoneapps.org
-* Liste im Mobian-Wiki: https://wiki.mobian-project.org/doku.php?id=apps
-* Waydroid – Container für Android-Apps: https://waydro.id
+* App-Listen
+    * LinuxPhoneApps (<https://linuxphoneapps.org>)
+    * Liste im Mobian-Wiki (<https://wiki.mobian-project.org/doku.php?id=apps>)
+    * Listen für PureOS
+        * <https://tracker.pureos.net/w/pureos/mobile_optimized_apps/>
+        * <https://tracker.pureos.net/w/pureos/3rd-party_mobile_optimized_apps/>
+* Android-Apps auf Linux-Smarphones
+    * Waydroid (<https://waydro.id>)
 
 ## Blogs
-* https://linmob.net
-* https://tuxphones.com
-* Megi
+* LINMOB.net (<https://linmob.net
+* TuxPhones (<https://tuxphones.com>)
+* fossphones (<https://fossphones.com/news.html>)
+* megi (<https://xnux.eu/log/>)
 
-## Kurioses
+<!--## Kurioses
 * Doom auf PinePhone-Modem: 
-* beleuchtete PinePhone-Tastatur: 
+* beleuchtete PinePhone-Tastatur: -->
 
 <!-- ## Bootloader / Low Level-Zeug / Firmware -->
