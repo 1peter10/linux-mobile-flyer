@@ -5,26 +5,32 @@ author: "Online-Version: https://framagit.org/loss/flyer"
 date: "Lizenz: CC BY-SA 4.0 International"
 ---
 
-<!--## Definition
-TODO: tbd-->
+Du freust dich, denn deine Server, Desktops und Laptops laufen mit dem Linux
+Kernel. Ist es nicht fantastisch, zu einem großen Teil frei von properitärer
+Software zu sein, und diese Systeme komplett unter deiner Kontrolle zu haben?
+Eine typische Linux-Distribution müllt dich nicht mit Werbung zu, respektiert
+deine Privatsphäre und liefert dir Updates bis dein Gerät physikalisch nicht
+mehr nutzbar ist. Falls du dich etwas intensiver mit Linux beschäftigt hast,
+kannst du wahrscheinlich auch über ein Terminal und SSH einfach alles
+konfigurieren und automatisieren.
 
-## Vorteile
-Gleiche wie bei Desktop-Linux:
+Doch was ist mit deinem Smartphone? Wäre es nicht schön, wenn du statt iOS oder
+Android dort auch eine richtige Linux Distribution verwenden könntest? Es gibt
+ein ganzes Ökosystem von Projekten, die dieses Ziel verfolgen.
 
-* modulares System
-* Paketmanager
-* Desktop- und CLI-Programme
-* Open Source
-* Mainline-Kernel
-* Privatsphäre
-* standardmäßig Root-Rechte
-* nicht-kommerziell
-* Bastelspaß!
+Wie auf dem Desktop gibt es verschiedene Oberflächen, von den mobilen varianten
+für KDE und GNOME bis hin zu einem Tiling Window Manager, den man mit
+Wisch-Gesten bedienen kann. Es gibt Distributionen, die diese Oberflächen
+paketieren und für eine Vielzahl von Smartphones zur Verfügung stellen. Und es
+gibt Gesamtsysteme aus Oberflächen und Distributionen. Nicht alle Projekte sind
+in einem alltagstauglichen Zustand, aber dennoch interessant für Linux
+Enthusiasten, Bastler und (angehende) Entwickler die selbst etwas am Status Quo
+ändern wollen.
 
 ## Geräte
 * Pine64 (<https://pine64.org>): PinePhone und PinePhone Pro
 * Purism (<https://puri.sm>): Librem 5
-* viele Android-Geräte auch kompatibel, unterstützt von
+* viele Android-Geräte (teilweise mit Mainline Kernel), unterstützt von
     * postmarketOS (<https://wiki.postmarketos.org/wiki/Devices>)
     * Ubuntu Touch (<https://devices.ubuntu-touch.io>)
     * Mobian (<https://wiki.mobian.org/doku.php?id=devices>)
@@ -73,6 +79,17 @@ Gleiche wie bei Desktop-Linux:
 * LINMOB.net (<https://linmob.net>)
 * megi (<https://xnux.eu/log/>)
 * TuxPhones (<https://tuxphones.com>)
+
+## Podcasts
+* (de) Linux Smartphones (Episode von FOCUS ON: Linux) (<https://focusonlinux.podigee.io/50-linux-smartphones>)
+* (en) PineTalk (<https://www.pine64.org/pinetalk/>)
+* (en) postmarketOS podcast (<https://cast.postmarketos.org>)
+
+## Chats
+* (de) Rund ums PinePhone (Matrix Chatraum)
+  (<https://matrix.to/#/#PP_german:matrix.org>)
+* (en) FOSS Mobile (Matrix Space mit Chaträumen zu den meisten Projekten)
+  (<https://matrix.to/#/#FOSSMobile:matrix.org>)
 
 <!--## Kurioses
 * Doom auf PinePhone-Modem: 
