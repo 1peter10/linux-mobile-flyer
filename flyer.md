@@ -1,16 +1,17 @@
 ---
 geometry: a5paper,margin=1cm
+header-includes: \usepackage[fontsize=8.75pt]{fontsize}
 ---
 
 \begin{center}
 \LARGE{Linux auf Smartphones}\\[0.5cm]
-\large{Online-Version: https://framagit.org/loss/flyer}\\[0.25cm]
-\large{Lizenz: CC BY-SA 4.0 International}\\[0.5cm]
+\large{Online-Version: \url{https://pinephone.de/flyer.pdf}}\\[0.25cm]
+\large{Repository: \url{https://framagit.org/loss/flyer} | Lizenz: CC BY-SA 4.0}\\[0.5cm]
 \end{center}
 
 \pagenumbering{gobble}
 
-Du freust dich, denn deine Server, Desktops und Laptops laufen mit dem Linux-Kernel.
+Du freust dich, denn deine Server, Desktops und Laptops laufen mit Linux.
 Ist es nicht fantastisch, zu einem großen Teil frei von properitärer
 Software zu sein, und diese Systeme komplett unter deiner Kontrolle zu haben?
 Eine typische Linux-Distribution müllt dich nicht mit Werbung zu, respektiert
@@ -34,7 +35,7 @@ Bastler und (angehende) Entwickler, die selbst etwas am Status Quo
 
 ## Geräte
 
--   Pine64 (<https://pine64.org>): PinePhone und PinePhone Pro
+-   PINE64 (<https://pine64.org>): PinePhone und PinePhone Pro
 -   Purism (<https://puri.sm>): Librem 5
 -   viele Android-Geräte (teilweise mit Mainline Kernel), unterstützt von
     -   postmarketOS (<https://wiki.postmarketos.org/wiki/Devices>)
@@ -48,7 +49,7 @@ Bastler und (angehende) Entwickler, die selbst etwas am Status Quo
 
 -   Plasma Mobile (<https://plasma-mobile.org>)
 -   Phosh (<https://puri.sm/pureos/phosh/>)
--   SXMO (<https://sxmo.org>)
+-   Sxmo (<https://sxmo.org>)
 <!-- TODO: Besserer Link -->
 -   GNOME Shell on Mobile (<https://blogs.gnome.org/shell-dev/2022/09/09/gnome-shell-on-mobile-an-update/>)
 
@@ -89,7 +90,6 @@ Bastler und (angehende) Entwickler, die selbst etwas am Status Quo
 
 -   fossphones (<https://fossphones.com/news.html>)
 -   LINMOB.net (<https://linmob.net>)
--   megi (<https://xnux.eu/log/>)
 -   TuxPhones (<https://tuxphones.com>)
 
 ## Podcasts
