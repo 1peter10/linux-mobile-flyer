@@ -5,8 +5,7 @@ header-includes: \usepackage[fontsize=8.75pt]{fontsize}
 
 \begin{center}
 \LARGE{Linux auf Smartphones}\\[0.5cm]
-\large{Online-Version: \url{https://pinephone.de/flyer.pdf}}\\[0.25cm]
-\large{Repository: \url{https://framagit.org/loss/flyer} | Lizenz: CC BY-SA 4.0}\\[0.5cm]
+\large{Online-Version: \url{https://linmob.net/37c3.pdf}}\\[0.25cm]
 \end{center}
 
 \pagenumbering{gobble}
@@ -17,7 +16,7 @@ Software zu sein, und diese Systeme komplett unter deiner Kontrolle zu haben?
 Eine typische Linux-Distribution müllt dich nicht mit Werbung zu, respektiert
 deine Privatsphäre und liefert dir Updates, bis dein Gerät physisch nicht
 mehr nutzbar ist. Falls du dich etwas intensiver mit Linux beschäftigt hast,
-kannst du wahrscheinlich auch über ein Terminal und SSH einfach alles
+kannst du wahrscheinlich auch über ein Terminal und SSH (fast) alles
 konfigurieren und automatisieren.
 
 Doch was ist mit deinem Smartphone? Wäre es nicht schön, wenn du statt iOS oder
@@ -57,14 +56,13 @@ Bastler und (angehende) Entwickler, die selbst etwas am Status Quo
 
 -   basierend auf Arch Linux
     -   Manjaro (<https://github.com/manjaro-pinephone>)
-    -   Arch Linux ARM on Mobile (<https://github.com/dreemurrs-embedded/Pine64-Arch>)
+    -   Arch Linux ARM on PINE64 (<https://github.com/dreemurrs-embedded/Pine64-Arch>)
     -   Kupfer (<https://kupfer.gitlab.io>)
 -   basierend auf Debian
-    -   PureOS (<https://pureos.net>)
-    -   Mobian (<https://mobian-project.org>)
-    -   Droidian (<https://droidian.org>)
+    -   PureOS (<https://pureos.net>) (Purism Librem 5)
+    -   Mobian (<https://mobian-project.org>) (Mainline)
+    -   Droidian (<https://droidian.org>) (Halium)
 -   postmarketOS (<https://postmarketos.org>)
--   Maemo Leste (<https://maemo-leste.github.io>)
 -   Mobile NixOS (<https://mobile.nixos.org>)
 -   Rhino Linux (<https://rhinolinux.org>)
 -   Liste mit weiteren auf LINMOB.net (<https://linmob.net/resources/#mobile-linux-distributions>)
@@ -74,12 +72,13 @@ Bastler und (angehende) Entwickler, die selbst etwas am Status Quo
 
 -   Ubuntu Touch (<https://ubports.com>)
 -   SailfishOS (<https://sailfishos.org>)
+-   Maemo Leste (<https://maemo-leste.github.io>)
 
 ## Apps
 
 -   App-Listen
     -   LinuxPhoneApps (<https://linuxphoneapps.org>)
-    -   Liste im Mobian-Wiki (<https://wiki.mobian-project.org/doku.php?id=apps>)
+    -   Liste im postmarketOS-Wiki (<https://wiki.postmarketos.org/wiki/Applications_by_category>)
     -   Listen für PureOS
         -   <https://tracker.pureos.net/w/pureos/mobile_optimized_apps/>
         -   <https://tracker.pureos.net/w/pureos/3rd-party_mobile_optimized_apps/>
@@ -95,7 +94,7 @@ Bastler und (angehende) Entwickler, die selbst etwas am Status Quo
 ## Podcasts
 
 -   (de) Linux Smartphones (Episode von FOCUS ON: Linux) (<https://focusonlinux.podigee.io/50-linux-smartphones>)
--   PineTalk (<https://www.pine64.org/pinetalk/>)
+-   (de) Linux on mobile (Episode von 0x0d) (<https://0x0d.de/2023/12/0d110-linux-on-mobile/>)
 -   postmarketOS podcast (<https://cast.postmarketos.org>)
 
 ## Chats
@@ -105,8 +104,8 @@ Bastler und (angehende) Entwickler, die selbst etwas am Status Quo
 -   FOSS Mobile (Matrix Space mit Chaträumen zu den meisten Projekten)
     (<https://matrix.to/#/#FOSSMobile:matrix.org>)
 
-<!--## Kurioses
-* Doom auf PinePhone-Modem:
-* beleuchtete PinePhone-Tastatur: -->
+\begin{center}
+\large{Repository: \url{https://framagit.org/1peter10/flyer} | Lizenz: CC BY-SA 4.0}\\[0.5cm]
+\end{center}
 
 <!-- ## Bootloader / Low Level-Zeug / Firmware -->
