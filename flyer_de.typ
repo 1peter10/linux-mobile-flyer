@@ -1,13 +1,12 @@
-#let title = [
-  Linux auf Smartphones
-]
 
 #set page(
   paper: "a5",
   margin: (x: 1cm, y: 1cm),
+  //background: image("38c3-styleguide-assets-v2/assets/blobs/blob-collision-rect-12_red.svg", fit: "stretch"),
 )
+
 #set text(
-  font: "New Computer Modern",
+  font: "Uncut Sans",
   size: 10pt
 )
 #set par(
@@ -16,17 +15,19 @@
 )
 
 #align(right + top)[
-  #image("38c3.svg", width: 20%)
-  ]
+  #image("38c3-styleguide-assets-v2/assets/logo-with-theme.svg", width: 15%)
+]
 
-#align(center, text(17pt)[
-  *#title*
-])
+#show heading: set align(center);
+
+#show heading.where(level: 1): set text(font: "Pilowlava");
+#show heading.where(level: 3): set align(left);
+
+= Linux auf Smartphones
 
 #align(center, text(8pt)[
-  Online-Version: #link("https://linmob.net/38c3.pdf") \
+  #link("https://linmob.net/38c3/flyer") \
 ])
-
 
 Du freust dich, denn deine Server, Desktops und Laptops laufen mit
 Linux. Ist es nicht fantastisch, zu einem großen Teil frei von
@@ -66,8 +67,8 @@ Habt Spaß am (Mobil-)Gerät!
 == Oberflächen / Ökosysteme
 <oberflächen-ökosysteme>
 - Plasma Mobile (#link("https://plasma-mobile.org");)
-- Phosh (#link("https://puri.sm/pureos/phosh/");)
-- Sxmo (#link("https://sxmo.org");)
+- Phosh (#link("https://phosh.mobi");)
+- Sxmo (#link("https://sxmo.org");) - baut auf dwm oder sway auf
 - GNOME Shell on Mobile
   (#link("https://blogs.gnome.org/shell-dev/2022/09/09/gnome-shell-on-mobile-an-update/");)
 
@@ -85,8 +86,8 @@ Habt Spaß am (Mobil-)Gerät!
 - Liste mit weiteren auf LINMOB.net
   (#link("https://linmob.net/resources/#mobile-linux-distributions");)
 
-== Gesamtsysteme
-<gesamtsysteme>
+=== Integrierte Systeme
+<integrierte-systeme>
 - Ubuntu Touch (#link("https://ubports.com");)
 - SailfishOS (#link("https://sailfishos.org");)
 - Maemo Leste (#link("https://maemo-leste.github.io");)
