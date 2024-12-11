@@ -1,33 +1,42 @@
 
 #set page(
+  columns: 2,
   paper: "a5",
   margin: (x: 1cm, y: 1cm),
   //background: image("38c3-styleguide-assets-v2/assets/blobs/blob-collision-rect-12_red.svg", fit: "stretch"),
+  footer: context [
+    #set align(right)
+    #set text(6pt)
+    _Deutsch_
+    #h(1fr)
+    #link("https://linmob.net/38c3/flyer") 
+  ]
 )
 
 #set text(
   font: "Uncut Sans",
-  size: 10pt
-)
-#set par(
-  justify: true,
-  leading: 0.52em,
+  size: 8pt,
 )
 
-#align(right + top)[
-  #image("38c3-styleguide-assets-v2/assets/logo-with-theme.svg", width: 15%)
-]
+#set par(
+  justify: true,
+  leading: 0.51em,
+)
 
 #show heading: set align(center);
 
 #show heading.where(level: 1): set text(font: "Pilowlava");
+#show heading.where(level: 1): set text(size: 20pt);
 #show heading.where(level: 3): set align(left);
 
-= Linux auf Smartphones
 
-#align(center, text(8pt)[
-  #link("https://linmob.net/38c3/flyer") \
-])
+#place(
+  top + left,
+  scope: "parent",
+  float: true,
+  [
+
+= Linux auf Smartphones
 
 Du freust dich, denn deine Server, Desktops und Laptops laufen mit
 Linux. Ist es nicht fantastisch, zu einem großen Teil frei von
@@ -48,29 +57,34 @@ Oberflächen paketieren und für eine Vielzahl von Smartphones zur
 Verfügung stellen. Und es gibt Gesamtsysteme aus Oberflächen und
 Distributionen. Nicht alle Projekte sind in einem alltagstauglichen
 Zustand, aber dennoch interessant für Linux-Enthusiasten, Bastler und
-(angehende) Entwickler, die selbst etwas am Status Quo ändern wollen.
+(angehende) Entwickler, die selbst etwas am Status Quo ändern wollen. 
 
 Habt Spaß am (Mobil-)Gerät!
 
+],
+)
+
+#set align(left) 
+#set text(7.5pt)
 == Geräte
 <geräte>
-- PINE64 (#link("https://pine64.org");): PinePhone und PinePhone Pro
-- Purism (#link("https://puri.sm");): Librem 5
 - viele Android-Geräte (teilweise mit Mainline Kernel), unterstützt von
   - postmarketOS (#link("https://wiki.postmarketos.org/wiki/Devices");)
   - Ubuntu Touch (#link("https://devices.ubuntu-touch.io");)
   - Mobian (#link("https://wiki.debian.org/Mobian/Devices");)
   - Droidian (#link("https://devices.droidian.org/devices/");)
-- umfangreiche Liste auf TuxPhones.com
-  (#link("https://many.tuxphones.com");)
+  - umfangreiche Liste auf TuxPhones.com (#link("https://many.tuxphones.com");)
+- PINE64 (#link("https://pine64.org");): PinePhone und PinePhone Pro
+- Purism (#link("https://puri.sm");): Librem 5
+- FuriLabs (#link("https://furilabs.com");): FLX 1
 
 == Oberflächen / Ökosysteme
 <oberflächen-ökosysteme>
 - Plasma Mobile (#link("https://plasma-mobile.org");)
-- Phosh (#link("https://phosh.mobi");)
+- GNOME 
+  - Phosh (#link("https://phosh.mobi");)
+  - GNOME Shell on Mobile (#link("https://blogs.gnome.org/shell-dev/2022/09/09/gnome-shell-on-mobile-an-update/");)
 - Sxmo (#link("https://sxmo.org");) - baut auf dwm oder sway auf
-- GNOME Shell on Mobile
-  (#link("https://blogs.gnome.org/shell-dev/2022/09/09/gnome-shell-on-mobile-an-update/");)
 
 == Distributionen
 <distributionen>
@@ -82,24 +96,25 @@ Habt Spaß am (Mobil-)Gerät!
 - Arch Linux ARM on PINE64
   (#link("https://github.com/dreemurrs-embedded/Pine64-Arch");)
 - Kupfer (#link("https://kupfer.gitlab.io");) (Arch-Linux-Basis)
+#colbreak()
 - Mobile NixOS (#link("https://mobile.nixos.org");)
-- Liste mit weiteren auf LINMOB.net
+- mehr auf LINMOB.net
   (#link("https://linmob.net/resources/#mobile-linux-distributions");)
 
 === Integrierte Systeme
 <integrierte-systeme>
 - Ubuntu Touch (#link("https://ubports.com");)
-- SailfishOS (#link("https://sailfishos.org");)
+- Sailfish OS (#link("https://sailfishos.org");)
 - Maemo Leste (#link("https://maemo-leste.github.io");)
 
 == Apps
 <apps>
 - App-Listen
   - LinuxPhoneApps (#link("https://linuxphoneapps.org");)
-  - Liste im postmarketOS-Wiki
-    (#link("https://wiki.postmarketos.org/wiki/Applications_by_category");)
-- Android-Apps auf Linux-Smarphones
+  - Liste im postmarketOS-Wiki (#link("https://wiki.postmarketos.org/wiki/Applications_by_category");)
+- Android-Apps auf Linux-Smartphones
   - Waydroid (#link("https://waydro.id");)
+  - Android Translation Layer (#link("https://gitlab.com/android_translation_layer/android_translation_layer");)
 
 == Blogs
 <blogs>
