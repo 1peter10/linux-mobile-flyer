@@ -1,6 +1,7 @@
 
 # Leaflet "Linux on Smartphones" / Flyer zu "Linux auf Smartphones"
 
+For a bilingual (double sided, one side English, one side German) variant see flyer.typ.
 For the English variant, see flyer_en.typ, für die Deutsche Version siehe flyer_de.typ.
 
 To generate a PDF, use [Typst](https://github.com/typst/typst) - to get arrange it for printing on a DIN A4 printer, you will need [pdfjam](https://github.com/pdfjam/pdfjam). To generate HTML, use [pandoc](https://pandoc.org/).

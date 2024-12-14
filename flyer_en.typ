@@ -2,7 +2,6 @@
   title: "Linux on Smartphones - 38C3 leaflet",
   author: ("1peter10", "cahfofpai", "ollieparanoid",),
   keywords: ("linux", "smartphones",)
-  date: auto,
 )
 
 #set page(
