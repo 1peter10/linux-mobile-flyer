@@ -1,3 +1,9 @@
+#set document(
+  title: "Linux auf Smartphones - 38C3 Flyer",
+  author: ("1peter10", "cahfofpai", "ollieparanoid",),
+  keywords: ("linux", "smartphones",)
+  date: auto,
+)
 
 #set page(
   paper: "a5",
