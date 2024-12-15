@@ -35,11 +35,11 @@
 ])
 
 
-You're happy because your servers, desktops and laptops are running Linux. Isn't it fantastic to be largely free of proprietary proprietary software and to have these systems completely under your control? A typical Linux distribution does not clutter you with ads, respects your privacy and provides you with updates, until your device is physically unusable.
+You're happy because your servers, desktops and laptops are running Linux. Isn't it fantastic to be largely free of proprietary software and to have these systems completely under your control? A typical Linux distribution does not clutter you with ads, respects your privacy and provides you with updates, until your device is physically unusable.
 
 But what about your smartphone? Wouldn't it be nice if you could use a proper Linux distribution instead of iOS or Android? There is a whole ecosystem of projects that pursue this goal.
 
-Just like on the desktop, there are different interfaces, from the mobile variants for KDE and GNOME through to a tiling window manager that you can operate with swipe gestures. There are distributions that package these interfaces and make them available for a variety of smartphones, while, e.g., Ubuntu Touch and Sailfish OS offer custom interfaces in order to deliver a more polished experience. Not all projects are in a state suitable for everyday use but are still interesting for Linux enthusiasts, hobbyists and (prospective) (prospective) developers who want to change the status quo themselves.
+Just like on the desktop, there are different interfaces, from the mobile variants for KDE and GNOME through to a tiling window manager that you can operate with swipe gestures. There are distributions that package these interfaces and make them available for a variety of smartphones, while, e.g., Ubuntu Touch and Sailfish OS offer custom interfaces in order to deliver a more polished experience. Not all projects are in a state suitable for everyday use but are still interesting for Linux enthusiasts, hobbyists and (prospective) developers who want to change the status quo themselves.
 
 Happy hacking!
 

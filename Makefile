@@ -1,8 +1,8 @@
 all: html pdf pdf-print
 	
 html: flyer_*.typ
-	pandoc flyer_de.typ --standalone --css=../github-markdown-light.css -o build/flyer_de.html
-	pandoc flyer_en.typ --standalone --css=../github-markdown-light.css -o build/flyer_en.html
+	pandoc flyer_de.typ --standalone --metadata title="Linux auf Smartphones - Flyer" --css=../github-markdown-light.css -o build/flyer_de.html
+	pandoc flyer_en.typ --standalone --metadata title="Linux on Smartphones - Flyer" --css=../github-markdown-light.css -o build/flyer_en.html
 pdf: flyer_*.typ
 	typst compile flyer.typ
 	typst compile flyer_de.typ
