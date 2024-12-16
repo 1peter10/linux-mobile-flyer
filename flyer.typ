@@ -15,7 +15,7 @@
     #set text(6pt)
     #context text.lang
     #h(1fr)
-    #link("https://linmob.net/38c3/flyer") 
+    #link("https://linmob.net/38c3")
   ]
 )
 #set text(
@@ -88,7 +88,7 @@ Happy hacking!
   (#link("https://github.com/dreemurrs-embedded/Pine64-Arch");)
 - Kupfer (#link("https://kupfer.gitlab.io");) (Arch Linux ARM-based)
 #colbreak()
-- Mobile NixOS (#link("https://mobile.nixos.org");)
+- Mobile NixOS (#link("https://github.com/mobile-nixos/mobile-nixos");)
 - and more listed on LINMOB.net (#link("https://linmob.net/resources/#mobile-linux-distributions");)
   
 === Integrated experiences
@@ -195,7 +195,7 @@ Habt Spaß am (Mobil-)Gerät!
   (#link("https://github.com/dreemurrs-embedded/Pine64-Arch");)
 - Kupfer (#link("https://kupfer.gitlab.io");) (Arch-Linux-Basis)
 #colbreak()
-- Mobile NixOS (#link("https://mobile.nixos.org");)
+- Mobile NixOS (#link("https://github.com/mobile-nixos/mobile-nixos");)
 - mehr auf LINMOB.net
   (#link("https://linmob.net/resources/#mobile-linux-distributions");)
 
